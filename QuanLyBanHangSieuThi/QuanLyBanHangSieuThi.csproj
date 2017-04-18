@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{677C620C-DB28-49F0-A2DA-9B7D15367D42}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyBanHangSieuThi</RootNamespace>
+    <AssemblyName>QuanLyBanHangSieuThi</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="FormCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCustomer.Designer.cs">
+      <DependentUpon>FormCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmployy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmployy.Designer.cs">
+      <DependentUpon>FormEmployy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearch.Designer.cs">
+      <DependentUpon>FormSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSell.Designer.cs">
+      <DependentUpon>FormSell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStatistical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStatistical.Designer.cs">
+      <DependentUpon>FormStatistical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCustomer.resx">
+      <DependentUpon>FormCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmployy.resx">
+      <DependentUpon>FormEmployy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearch.resx">
+      <DependentUpon>FormSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSell.resx">
+      <DependentUpon>FormSell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStatistical.resx">
+      <DependentUpon>FormStatistical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492417223_profle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material_design_wallpaper-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492418374_cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492418374_cart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492418863_thefreeforty_shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492418944_icons_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492419046_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492419188_finance-21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492419538_user-secret.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492419784_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492425868_icons_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492425953_icons_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492426128_icons_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492426128_icons_edit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492426077_icons_exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492426060_icons_share.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492426098_icons_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492427205_icons_update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492427262_icons_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492428722_icon-ios7-search-strong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492428977_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492429049_icons_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492432295_ic_local_print_shop_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492433381_magnifier_glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTO\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

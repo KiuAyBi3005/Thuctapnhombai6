@@ -1,0 +1,15 @@
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\bin\Debug\QuanLyBanHangSieuThi.exe.config
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\bin\Debug\QuanLyBanHangSieuThi.exe
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\bin\Debug\QuanLyBanHangSieuThi.pdb
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.csprojResolveAssemblyReference.cache
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.FormLogin.resources
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.Properties.Resources.resources
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.csproj.GenerateResource.Cache
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.exe
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.pdb
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.FormMenu.resources
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.FormEmployy.resources
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.FormCustomer.resources
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.FormSearch.resources
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.FormSell.resources
+D:\C#\QuanLyBanHangSieuThi\QuanLyBanHangSieuThi\obj\Debug\QuanLyBanHangSieuThi.FormStatistical.resources
