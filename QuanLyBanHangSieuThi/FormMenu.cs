@@ -51,5 +51,10 @@ namespace QuanLyBanHangSieuThi
         {
 
         }
+
+        private void Button_menu_guide_click(object sender, EventArgs e)
+        {
+            MessageBox.Show("");
+        }
     }
 }

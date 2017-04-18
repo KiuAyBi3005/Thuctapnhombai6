@@ -10,7 +10,7 @@ namespace QuanLyBanHangSieuThi.DAO
 {
     public class DataProvider
     {
-        private string connectionString = "Data Source=DESKTOP-DB1N1CD\\SQLEXPRESS;Initial Catalog=QuanLyBanHangSieuThi;Integrated Security=True";
+        private string connectionString = "Data Source=HUY-PC\\SQLEXPRESS;Initial Catalog=QuanLyBanHangSieuThi;Integrated Security=True";
 
         public DataTable ExecuteQuery(string query)
         {

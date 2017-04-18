@@ -30,43 +30,43 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.button_menu_employy = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.button_menu_customer = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.button_menu_statistical = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.button_menu_search = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button_menu_import = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button_menu_sell = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.text_menu_funtions = new System.Windows.Forms.Label();
             this.information = new System.Windows.Forms.ToolStripMenuItem();
-            this.guide = new System.Windows.Forms.ToolStripMenuItem();
+            this.Button_menu_guide = new System.Windows.Forms.ToolStripMenuItem();
             this.contact = new System.Windows.Forms.ToolStripMenuItem();
             this.exit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.button_menu_sell = new System.Windows.Forms.Button();
-            this.button_menu_import = new System.Windows.Forms.Button();
-            this.button_menu_search = new System.Windows.Forms.Button();
-            this.button_menu_employy = new System.Windows.Forms.Button();
-            this.button_menu_customer = new System.Windows.Forms.Button();
-            this.button_menu_statistical = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel11.SuspendLayout();
@@ -107,6 +107,15 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(202, 121);
             this.panel13.TabIndex = 6;
+            // 
+            // button_menu_employy
+            // 
+            this.button_menu_employy.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492419784_user;
+            this.button_menu_employy.Location = new System.Drawing.Point(12, 35);
+            this.button_menu_employy.Name = "button_menu_employy";
+            this.button_menu_employy.Size = new System.Drawing.Size(64, 64);
+            this.button_menu_employy.TabIndex = 6;
+            this.button_menu_employy.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -167,6 +176,15 @@
             this.panel11.Size = new System.Drawing.Size(202, 121);
             this.panel11.TabIndex = 5;
             // 
+            // button_menu_customer
+            // 
+            this.button_menu_customer.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492419538_user_secret;
+            this.button_menu_customer.Location = new System.Drawing.Point(14, 40);
+            this.button_menu_customer.Name = "button_menu_customer";
+            this.button_menu_customer.Size = new System.Drawing.Size(64, 64);
+            this.button_menu_customer.TabIndex = 6;
+            this.button_menu_customer.UseVisualStyleBackColor = true;
+            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -225,6 +243,16 @@
             this.panel8.Size = new System.Drawing.Size(202, 121);
             this.panel8.TabIndex = 4;
             // 
+            // button_menu_statistical
+            // 
+            this.button_menu_statistical.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492419188_finance_21;
+            this.button_menu_statistical.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button_menu_statistical.Location = new System.Drawing.Point(12, 35);
+            this.button_menu_statistical.Name = "button_menu_statistical";
+            this.button_menu_statistical.Size = new System.Drawing.Size(64, 64);
+            this.button_menu_statistical.TabIndex = 4;
+            this.button_menu_statistical.UseVisualStyleBackColor = true;
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -264,6 +292,15 @@
             this.panel6.Size = new System.Drawing.Size(202, 121);
             this.panel6.TabIndex = 3;
             // 
+            // button_menu_search
+            // 
+            this.button_menu_search.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492418944_icons_search;
+            this.button_menu_search.Location = new System.Drawing.Point(25, 22);
+            this.button_menu_search.Name = "button_menu_search";
+            this.button_menu_search.Size = new System.Drawing.Size(64, 64);
+            this.button_menu_search.TabIndex = 4;
+            this.button_menu_search.UseVisualStyleBackColor = true;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -291,6 +328,15 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(202, 121);
             this.panel4.TabIndex = 2;
+            // 
+            // button_menu_import
+            // 
+            this.button_menu_import.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492418863_thefreeforty_shop;
+            this.button_menu_import.Location = new System.Drawing.Point(14, 22);
+            this.button_menu_import.Name = "button_menu_import";
+            this.button_menu_import.Size = new System.Drawing.Size(64, 64);
+            this.button_menu_import.TabIndex = 4;
+            this.button_menu_import.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -322,6 +368,15 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(202, 121);
             this.panel3.TabIndex = 1;
+            // 
+            // button_menu_sell
+            // 
+            this.button_menu_sell.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492418374_cart;
+            this.button_menu_sell.Location = new System.Drawing.Point(12, 22);
+            this.button_menu_sell.Name = "button_menu_sell";
+            this.button_menu_sell.Size = new System.Drawing.Size(64, 64);
+            this.button_menu_sell.TabIndex = 3;
+            this.button_menu_sell.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -368,11 +423,13 @@
             this.information.Size = new System.Drawing.Size(116, 20);
             this.information.Text = "Thông tin cá nhân";
             // 
-            // guide
+            // Button_menu_guide
             // 
-            this.guide.Name = "guide";
-            this.guide.Size = new System.Drawing.Size(79, 20);
-            this.guide.Text = "Hướng dẫn";
+            this.Button_menu_guide.Name = "Button_menu_guide";
+            this.Button_menu_guide.ShortcutKeys = System.Windows.Forms.Keys.F1;
+            this.Button_menu_guide.Size = new System.Drawing.Size(79, 20);
+            this.Button_menu_guide.Text = "Hướng dẫn";
+            this.Button_menu_guide.Click += new System.EventHandler(this.Button_menu_guide_click);
             // 
             // contact
             // 
@@ -390,7 +447,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.information,
-            this.guide,
+            this.Button_menu_guide,
             this.contact,
             this.exit});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -398,61 +455,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(935, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // button_menu_sell
-            // 
-            this.button_menu_sell.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492418374_cart;
-            this.button_menu_sell.Location = new System.Drawing.Point(12, 22);
-            this.button_menu_sell.Name = "button_menu_sell";
-            this.button_menu_sell.Size = new System.Drawing.Size(64, 64);
-            this.button_menu_sell.TabIndex = 3;
-            this.button_menu_sell.UseVisualStyleBackColor = true;
-            // 
-            // button_menu_import
-            // 
-            this.button_menu_import.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492418863_thefreeforty_shop;
-            this.button_menu_import.Location = new System.Drawing.Point(14, 22);
-            this.button_menu_import.Name = "button_menu_import";
-            this.button_menu_import.Size = new System.Drawing.Size(64, 64);
-            this.button_menu_import.TabIndex = 4;
-            this.button_menu_import.UseVisualStyleBackColor = true;
-            // 
-            // button_menu_search
-            // 
-            this.button_menu_search.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492418944_icons_search;
-            this.button_menu_search.Location = new System.Drawing.Point(25, 22);
-            this.button_menu_search.Name = "button_menu_search";
-            this.button_menu_search.Size = new System.Drawing.Size(64, 64);
-            this.button_menu_search.TabIndex = 4;
-            this.button_menu_search.UseVisualStyleBackColor = true;
-            // 
-            // button_menu_employy
-            // 
-            this.button_menu_employy.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492419784_user;
-            this.button_menu_employy.Location = new System.Drawing.Point(12, 35);
-            this.button_menu_employy.Name = "button_menu_employy";
-            this.button_menu_employy.Size = new System.Drawing.Size(64, 64);
-            this.button_menu_employy.TabIndex = 6;
-            this.button_menu_employy.UseVisualStyleBackColor = true;
-            // 
-            // button_menu_customer
-            // 
-            this.button_menu_customer.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492419538_user_secret;
-            this.button_menu_customer.Location = new System.Drawing.Point(14, 40);
-            this.button_menu_customer.Name = "button_menu_customer";
-            this.button_menu_customer.Size = new System.Drawing.Size(64, 64);
-            this.button_menu_customer.TabIndex = 6;
-            this.button_menu_customer.UseVisualStyleBackColor = true;
-            // 
-            // button_menu_statistical
-            // 
-            this.button_menu_statistical.BackgroundImage = global::QuanLyBanHangSieuThi.Properties.Resources._1492419188_finance_21;
-            this.button_menu_statistical.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button_menu_statistical.Location = new System.Drawing.Point(12, 35);
-            this.button_menu_statistical.Name = "button_menu_statistical";
-            this.button_menu_statistical.Size = new System.Drawing.Size(64, 64);
-            this.button_menu_statistical.TabIndex = 4;
-            this.button_menu_statistical.UseVisualStyleBackColor = true;
             // 
             // FormMenu
             // 
@@ -498,7 +500,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label text_menu_funtions;
         private System.Windows.Forms.ToolStripMenuItem information;
-        private System.Windows.Forms.ToolStripMenuItem guide;
+        private System.Windows.Forms.ToolStripMenuItem Button_menu_guide;
         private System.Windows.Forms.ToolStripMenuItem contact;
         private System.Windows.Forms.ToolStripMenuItem exit;
         private System.Windows.Forms.MenuStrip menuStrip1;

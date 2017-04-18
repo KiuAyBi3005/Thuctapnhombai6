@@ -16,7 +16,7 @@ namespace QuanLyBanHangSieuThi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormEmployy());
+            Application.Run(new FormMenu());
         }
     }
 }
