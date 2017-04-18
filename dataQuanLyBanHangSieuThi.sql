@@ -1,0 +1,31 @@
+﻿--insert into tblDangNhap(TaiKhoan,MatKhau) values ('admin','admin')
+
+--insert into tblHangHoa(MaHangHoa,TenHangHoa,SoLuongTrongKho) values (1,'Banh',10)
+--insert into tblHangHoa(MaHangHoa,TenHangHoa,SoLuongTrongKho) values (2,'Keo',23)
+--insert into tblHangHoa(MaHangHoa,TenHangHoa,SoLuongTrongKho) values (3,'Sua',32)
+--insert into tblHangHoa(MaHangHoa,TenHangHoa,SoLuongTrongKho) values (4,'Quan',43)
+--insert into tblHangHoa(MaHangHoa,TenHangHoa,SoLuongTrongKho) values (5,'Ao',26)
+
+insert into dbo.Employy(name,phone,address) values ('Nguyen Van A',0948042354,'Ha Noi')
+insert into dbo.Employy(name,phone,address) values ('Nguyen Van B',0948041231,'Nam Đinh')
+insert into dbo.Employy(name,phone,address) values ('Nguyen Van C',0948046543,'Thai Binh')
+insert into dbo.Employy(name,phone,address) values ('Nguyen Van D',0948041764,'Nghe An')
+insert into dbo.Employy(name,phone,address) values ('Nguyen Van E',0948042689,'Da Nang')
+
+insert into dbo.Customer(name,phone,address) values ('Tran Van A',0969451357,'Ninh Binh')
+insert into dbo.Customer(name,phone,address) values ('Tran Van B',0969454679,'Bac Giang')
+insert into dbo.Customer(name,phone,address) values ('Tran Van C',0969451268,'Quang Ninh')
+insert into dbo.Customer(name,phone,address) values ('Tran Van D',0969451279,'Hai Phong')
+insert into dbo.Customer(name,phone,address) values ('Tran Van E',0969453260,'Hue')
+
+--insert into tblHoaDon(MaHoaDon,MaNhanVien,MaKhachHang,NgayBanHang) values(1,1,4,'2017/12/15')
+--insert into tblHoaDon(MaHoaDon,MaNhanVien,MaKhachHang,NgayBanHang) values(2,2,2,'2017/04/21')
+--insert into tblHoaDon(MaHoaDon,MaNhanVien,MaKhachHang,NgayBanHang) values(3,3,5,'2017/05/28')
+--insert into tblHoaDon(MaHoaDon,MaNhanVien,MaKhachHang,NgayBanHang) values(4,4,1,'2017/09/09')
+--insert into tblHoaDon(MaHoaDon,MaNhanVien,MaKhachHang,NgayBanHang) values(5,5,3,'2017/02/14')
+
+--insert into tblHoaDon_HangHoa(MaHoaDon,MaHangHoa,SoLuongHangHoaBan,GiaHoaDon) values(1,1,5,10000)
+--insert into tblHoaDon_HangHoa(MaHoaDon,MaHangHoa,SoLuongHangHoaBan,GiaHoaDon) values(2,3,10,20000)
+--insert into tblHoaDon_HangHoa(MaHoaDon,MaHangHoa,SoLuongHangHoaBan,GiaHoaDon) values(3,4,27,30000)
+--insert into tblHoaDon_HangHoa(MaHoaDon,MaHangHoa,SoLuongHangHoaBan,GiaHoaDon) values(4,5,24,40000)
+--insert into tblHoaDon_HangHoa(MaHoaDon,MaHangHoa,SoLuongHangHoaBan,GiaHoaDon) values(5,2,14,50000)
